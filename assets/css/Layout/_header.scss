@@ -1,0 +1,33 @@
+/* =============== Header =============== */
+.header {
+
+    &__wrap {
+        background-image: linear-gradient(to right bottom, rgba($color-primary-light, 0.8), rgba($color-primary-dark, 0.8)), url(../img/background1.jpg);
+        background-size: cover;
+        background-position: top;
+        position: relative;
+        height: 95vh;
+        clip-path: ellipse(73% 62% at 50% 4%);
+
+    }
+
+    &__logo {
+        position: absolute;
+        top: 30px;
+        left: 30px;
+    }
+
+    &__img {
+        height: 70px;
+    }
+
+    &__heading {
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        
+    }
+   
+}
