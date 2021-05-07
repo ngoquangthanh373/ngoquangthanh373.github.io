@@ -138,6 +138,11 @@
         min-width: 28px;
         margin: 0 4px;
     }
+	
+	.home-product .home-product__item-sale .sale__lable {
+		font-size: 1rem;
+		line-height: 1rem;
+	}
 
     .footer .footer__content {
         padding: 0 16px;
@@ -145,6 +150,23 @@
 
     .footer .footer__bottom .footer__bottom-logo {
         margin-top: 0px;
+    }
+	
+	.footer .footer__heading {
+        text-align: center;
+    }
+
+    .footer .footer__download,
+    .footer__list .footer__list-item .item__link {
+        justify-content: center;
+    }
+
+    .footer .footer__download .footer__download-apps {
+        flex: unset;
+    }
+
+    .footer__download .footer__download-apps .apps__link {
+        padding: 12px 8px;
     }
 
     
