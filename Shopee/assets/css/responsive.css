@@ -50,6 +50,10 @@
     .mobile-category {
         display: block;
     }
+	
+	.footer__download .footer__download-apps .apps__link {
+        padding: 0px 8px;
+    }
 
 }
 
@@ -159,11 +163,6 @@
     .footer .footer__download .footer__download-apps {
         flex: unset;
     }
-
-    .footer__download .footer__download-apps .apps__link {
-        padding: 0px 8px;
-    }
-
     
 
     @keyframes mobileSearchSideIn {
